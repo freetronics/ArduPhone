@@ -10,11 +10,11 @@ charger.
 
 Features:
 
- * Mini-USB connector for charging and programming
+ * Micro-USB connector for charging and programming
  * Overlay guide where you need it (both top and bottom)
  * Mounting holes and power pads
 
-You can view more at our product page at:
+More info at:
 
   http://www.freetronics.com/phone
 
