@@ -15707,7 +15707,7 @@ http://cds.linear.com/docs/Datasheet/405442xf.pdf</description>
 <part name="JP11" library="freetronics-original" deviceset="M01" device="PTH"/>
 <part name="GND17" library="SparkFun" deviceset="GND" device=""/>
 <part name="JP12" library="freetronics-master-v1.1" deviceset="M02" device="PTH" value="MIC"/>
-<part name="SJ2" library="freetronics-master-v1.1" deviceset="SJ" device=""/>
+<part name="SJ2" library="freetronics-jon" deviceset="SJC" device="N"/>
 <part name="SJ3" library="freetronics-master-v1.1" deviceset="SJ" device=""/>
 <part name="JP13" library="freetronics-master-v1.1" deviceset="M02" device="PTH" value="SPKR"/>
 <part name="JP14" library="freetronics-master-v1.1" deviceset="M02" device="PTH" value="PIEZO"/>
@@ -15731,7 +15731,7 @@ http://cds.linear.com/docs/Datasheet/405442xf.pdf</description>
 <text x="221.742" y="48.768" size="1.778" layer="94">S</text>
 <frame x1="0" y1="0" x2="248.92" y2="185.42" columns="8" rows="5" layer="94"/>
 <text x="7.62" y="175.26" size="3.048" layer="94">ArduPhone</text>
-<text x="7.62" y="169.418" size="1.778" layer="94">V1.1 (2013-11-26)</text>
+<text x="7.62" y="169.418" size="1.778" layer="94">V1.2 (2013-11-26)</text>
 <text x="53.34" y="164.338" size="1.778" layer="94">SKU: PHONE</text>
 <text x="7.366" y="164.338" size="1.778" layer="94">(C)2013 Freetronics Pty Ltd</text>
 <text x="7.366" y="156.21" size="1.778" layer="94">Released under the TAPR Open Hardware
@@ -15767,7 +15767,7 @@ VCC: Unregulated battery voltage
 <text x="73.66" y="22.86" size="1.778" layer="97">OLED_RST</text>
 <text x="73.66" y="20.32" size="1.778" layer="97">OLED_CS</text>
 <text x="73.66" y="25.4" size="1.778" layer="97">SD_CS</text>
-<text x="149.86" y="160.02" size="1.778" layer="94">TODO:
+<text x="149.86" y="167.64" size="1.778" layer="94">TODO:
 Antenna mount
 Power switch</text>
 <text x="139.7" y="332.74" size="1.27" layer="98">2.0mm JST</text>
@@ -15782,7 +15782,7 @@ Power switch</text>
 <text x="170.18" y="320.04" size="1.778" layer="94" ratio="12">Keypad Matrix</text>
 <text x="10.16" y="271.78" size="1.778" layer="94" ratio="12">GSM Module</text>
 <text x="7.62" y="149.86" size="1.778" layer="94" ratio="12">LCD Module Header</text>
-<text x="114.3" y="177.8" size="1.778" layer="94" ratio="12">USB-Serial Converter</text>
+<text x="106.68" y="177.8" size="1.778" layer="94" ratio="12">USB-Serial Converter</text>
 <text x="228.6" y="360.68" size="1.6764" layer="94" ratio="12">Output</text>
 <text x="172.72" y="360.68" size="1.6764" layer="94" ratio="12">Input</text>
 <wire x1="158.75" y1="285.75" x2="158.75" y2="194.31" width="0.4064" layer="97" style="longdash"/>
@@ -16165,7 +16165,7 @@ Power switch</text>
 <instance part="JP11" gate="G$1" x="170.18" y="205.74"/>
 <instance part="GND17" gate="1" x="177.8" y="203.2"/>
 <instance part="JP12" gate="G$1" x="149.86" y="251.46" rot="MR0"/>
-<instance part="SJ2" gate="1" x="129.54" y="251.46" smashed="yes" rot="R180">
+<instance part="SJ2" gate="G$1" x="129.54" y="251.46" smashed="yes" rot="R180">
 <attribute name="NAME" x="129.54" y="254" size="1.27" layer="95" rot="R90"/>
 </instance>
 <instance part="SJ3" gate="1" x="111.76" y="254" smashed="yes" rot="R180">
@@ -17670,7 +17670,7 @@ Power switch</text>
 <wire x1="93.98" y1="251.46" x2="119.38" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="251.46" x2="119.38" y2="259.08" width="0.1524" layer="91"/>
 <junction x="119.38" y="259.08"/>
-<pinref part="SJ2" gate="1" pin="2"/>
+<pinref part="SJ2" gate="G$1" pin="2"/>
 <wire x1="124.46" y1="251.46" x2="119.38" y2="251.46" width="0.1524" layer="91"/>
 <junction x="119.38" y="251.46"/>
 </segment>
@@ -17729,7 +17729,7 @@ Power switch</text>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="SJ2" gate="1" pin="1"/>
+<pinref part="SJ2" gate="G$1" pin="1"/>
 <pinref part="JP12" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="251.46" x2="134.62" y2="251.46" width="0.1524" layer="91"/>
 </segment>
@@ -17756,10 +17756,8 @@ Power switch</text>
 <approved hash="104,1,175.26,147.32,IC2,VCC,5V,,,"/>
 <approved hash="104,1,175.26,149.86,IC2,VCCIO,N$2,,,"/>
 <approved hash="104,1,175.26,144.78,IC2,3V3OUT,N$2,,,"/>
-<approved hash="106,1,45.72,132.08,OLED_DNC,,,,,"/>
 <approved hash="115,1,19.6427,9.96527,J5,,,,,"/>
-<approved hash="115,1,134.62,253.756,SJ2,,,,,"/>
-<approved hash="115,1,129.54,256.296,SJ3,,,,,"/>
+<approved hash="115,1,111.76,256.113,SJ3,,,,,"/>
 <approved hash="117,1,26.67,111.76,D12_MISO,,,,,"/>
 <approved hash="117,1,201.93,93.98,A0_ROW6,,,,,"/>
 <approved hash="117,1,201.93,91.44,A1_ROW5,,,,,"/>
