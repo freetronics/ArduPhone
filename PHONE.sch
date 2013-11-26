@@ -15601,7 +15601,7 @@ http://cds.linear.com/docs/Datasheet/405442xf.pdf</description>
 <part name="GND11" library="SparkFun" deviceset="GND" device=""/>
 <part name="P2" library="pinhead" deviceset="PINHD-2X3" device="" value="ICSP:MAIN"/>
 <part name="GND22" library="SparkFun" deviceset="GND" device=""/>
-<part name="R10" library="freetronics" deviceset="RESISTOR" device="0603" value="1K5 0603"/>
+<part name="R10" library="freetronics" deviceset="RESISTOR" device="0603" value="820R 0603"/>
 <part name="LED4" library="freetronics-master-v1" deviceset="LED" device="0603" value="3V3/BLUE"/>
 <part name="GND23" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$5" library="freetronics" deviceset="FIDUCIAL" device="1X2.5"/>
@@ -15643,7 +15643,6 @@ http://cds.linear.com/docs/Datasheet/405442xf.pdf</description>
 <part name="P+4" library="freetronics-master-v1.1" deviceset="3V3" device=""/>
 <part name="S5" library="freetronics-jon" deviceset="ADH8066" device="" value="Hirose DF12C(3.0)-50DP-0.5V"/>
 <part name="GND12" library="SparkFun" deviceset="GND" device=""/>
-<part name="GND13" library="SparkFun" deviceset="GND" device=""/>
 <part name="JP1" library="freetronics-original" deviceset="M05X2" device="PTH"/>
 <part name="GND15" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+8" library="freetronics-original" deviceset="VCC" device=""/>
@@ -15652,7 +15651,7 @@ http://cds.linear.com/docs/Datasheet/405442xf.pdf</description>
 <part name="R9" library="freetronics" deviceset="RESISTOR" device="0603" value="1K 0603"/>
 <part name="IC3" library="freetronics-luke" deviceset="LTC4054" device=""/>
 <part name="R13" library="freetronics" deviceset="RESISTOR" device="0603" value="1K 0603"/>
-<part name="R14" library="freetronics" deviceset="RESISTOR" device="0603" value="10K 0603"/>
+<part name="R14" library="freetronics" deviceset="RESISTOR" device="0603" value="1K 0603"/>
 <part name="C1" library="freetronics" deviceset="CAP" device="0603" value="1uF 0603"/>
 <part name="R15" library="freetronics" deviceset="RESISTOR" device="0603" value="10K 0603"/>
 <part name="LED5" library="freetronics-master-v1" deviceset="LED" device="0603" value="CHRG/ORANGE"/>
@@ -15690,9 +15689,9 @@ http://cds.linear.com/docs/Datasheet/405442xf.pdf</description>
 <part name="JP10" library="freetronics-master-v1.1" deviceset="M01" device="PTH" value="COL3"/>
 <part name="LED7" library="freetronics-master-v1" deviceset="LED" device="0603" value="5V/JADEGREEN"/>
 <part name="GND14" library="SparkFun" deviceset="GND" device=""/>
-<part name="R19" library="freetronics" deviceset="RESISTOR" device="0603" value="1K 0603"/>
+<part name="R19" library="freetronics" deviceset="RESISTOR" device="0603" value="2K7 0603"/>
 <part name="U$3" library="SparkFun" deviceset="5V" device=""/>
-<part name="SJ6" library="freetronics-jon" deviceset="SJC" device="N" value="LINK"/>
+<part name="SJ6" library="freetronics-master-v1.1" deviceset="SJ" device="" value="LINK"/>
 <part name="U$6" library="freetronics" deviceset="FIDUCIAL" device="1X2.5"/>
 <part name="U$7" library="freetronics" deviceset="FIDUCIAL" device="1X2.5"/>
 <part name="IC2" library="freetronics-jon" deviceset="FT230X" device=""/>
@@ -15732,7 +15731,7 @@ http://cds.linear.com/docs/Datasheet/405442xf.pdf</description>
 <text x="221.742" y="48.768" size="1.778" layer="94">S</text>
 <frame x1="0" y1="0" x2="248.92" y2="185.42" columns="8" rows="5" layer="94"/>
 <text x="7.62" y="175.26" size="3.048" layer="94">ArduPhone</text>
-<text x="7.62" y="169.418" size="1.778" layer="94">V1.0 (2013-10-28)</text>
+<text x="7.62" y="169.418" size="1.778" layer="94">V1.1 (2013-11-26)</text>
 <text x="53.34" y="164.338" size="1.778" layer="94">SKU: PHONE</text>
 <text x="7.366" y="164.338" size="1.778" layer="94">(C)2013 Freetronics Pty Ltd</text>
 <text x="7.366" y="156.21" size="1.778" layer="94">Released under the TAPR Open Hardware
@@ -15768,7 +15767,7 @@ VCC: Unregulated battery voltage
 <text x="73.66" y="22.86" size="1.778" layer="97">OLED_RST</text>
 <text x="73.66" y="20.32" size="1.778" layer="97">OLED_CS</text>
 <text x="73.66" y="25.4" size="1.778" layer="97">SD_CS</text>
-<text x="157.48" y="167.64" size="1.778" layer="94">TODO:
+<text x="149.86" y="160.02" size="1.778" layer="94">TODO:
 Antenna mount
 Power switch</text>
 <text x="139.7" y="332.74" size="1.27" layer="98">2.0mm JST</text>
@@ -16038,7 +16037,6 @@ Power switch</text>
 <instance part="P+4" gate="G$1" x="220.98" y="83.82"/>
 <instance part="S5" gate="G$1" x="71.12" y="238.76"/>
 <instance part="GND12" gate="1" x="43.18" y="203.2"/>
-<instance part="GND13" gate="1" x="129.54" y="246.38"/>
 <instance part="JP1" gate="G$1" x="53.34" y="137.16"/>
 <instance part="GND15" gate="1" x="66.04" y="142.24" rot="R90"/>
 <instance part="P+8" gate="1" x="43.18" y="144.78"/>
@@ -16142,9 +16140,9 @@ Power switch</text>
 <attribute name="VALUE" x="81.788" y="96.012" size="1.778" layer="96"/>
 </instance>
 <instance part="U$3" gate="G$1" x="78.74" y="111.76"/>
-<instance part="SJ6" gate="G$1" x="104.14" y="259.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="106.68" y="259.08" size="1.778" layer="95"/>
-<attribute name="VALUE" x="106.68" y="256.794" size="1.778" layer="96"/>
+<instance part="SJ6" gate="1" x="99.06" y="259.08" smashed="yes" rot="R270">
+<attribute name="NAME" x="101.6" y="259.08" size="1.778" layer="95"/>
+<attribute name="VALUE" x="101.6" y="256.794" size="1.778" layer="96"/>
 </instance>
 <instance part="U$6" gate="G$1" x="88.9" y="177.8"/>
 <instance part="U$7" gate="G$1" x="88.9" y="172.72"/>
@@ -16167,11 +16165,11 @@ Power switch</text>
 <instance part="JP11" gate="G$1" x="170.18" y="205.74"/>
 <instance part="GND17" gate="1" x="177.8" y="203.2"/>
 <instance part="JP12" gate="G$1" x="149.86" y="251.46" rot="MR0"/>
-<instance part="SJ2" gate="1" x="134.62" y="251.46" smashed="yes" rot="R180">
-<attribute name="NAME" x="134.62" y="254" size="1.27" layer="95" rot="R90"/>
+<instance part="SJ2" gate="1" x="129.54" y="251.46" smashed="yes" rot="R180">
+<attribute name="NAME" x="129.54" y="254" size="1.27" layer="95" rot="R90"/>
 </instance>
-<instance part="SJ3" gate="1" x="129.54" y="254" smashed="yes" rot="R180">
-<attribute name="NAME" x="129.54" y="256.54" size="1.27" layer="95" rot="R90"/>
+<instance part="SJ3" gate="1" x="111.76" y="254" smashed="yes" rot="R180">
+<attribute name="NAME" x="111.76" y="256.54" size="1.27" layer="95" rot="R90"/>
 </instance>
 <instance part="JP13" gate="G$1" x="149.86" y="276.86" rot="MR0"/>
 <instance part="JP14" gate="G$1" x="20.32" y="88.9" rot="MR180"/>
@@ -16497,11 +16495,6 @@ Power switch</text>
 <junction x="43.18" y="218.44"/>
 </segment>
 <segment>
-<pinref part="S5" gate="G$1" pin="GND@42"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="93.98" y1="248.92" x2="129.54" y2="248.92" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="142.24" x2="63.5" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
@@ -16760,7 +16753,7 @@ Power switch</text>
 <label x="198.12" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D7" class="0">
+<net name="D7_OLED_DNC" class="0">
 <segment>
 <wire x1="48.26" y1="27.94" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
 <label x="48.26" y="27.94" size="1.778" layer="95"/>
@@ -16770,6 +16763,11 @@ Power switch</text>
 <pinref part="IC1" gate="G$1" pin="PD7(OC2A/PCINT31)"/>
 <wire x1="195.58" y1="7.62" x2="208.28" y2="7.62" width="0.1524" layer="91"/>
 <label x="198.12" y="7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="9"/>
+<wire x1="45.72" y1="132.08" x2="27.94" y2="132.08" width="0.1524" layer="91"/>
+<label x="30.48" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D6" class="0">
@@ -17401,12 +17399,12 @@ Power switch</text>
 <segment>
 <pinref part="S5" gate="G$1" pin="EARN"/>
 <pinref part="S4" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="269.24" x2="104.14" y2="269.24" width="0.1524" layer="91"/>
-<pinref part="SJ6" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="269.24" x2="116.84" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="269.24" x2="99.06" y2="269.24" width="0.1524" layer="91"/>
+<pinref part="SJ6" gate="1" pin="1"/>
+<wire x1="99.06" y1="269.24" x2="116.84" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="269.24" x2="121.92" y2="269.24" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="264.16" x2="104.14" y2="269.24" width="0.1524" layer="91"/>
-<junction x="104.14" y="269.24"/>
+<wire x1="99.06" y1="264.16" x2="99.06" y2="269.24" width="0.1524" layer="91"/>
+<junction x="99.06" y="269.24"/>
 <wire x1="116.84" y1="279.4" x2="116.84" y2="269.24" width="0.1524" layer="91"/>
 <junction x="116.84" y="269.24"/>
 <pinref part="JP13" gate="G$1" pin="2"/>
@@ -17526,13 +17524,6 @@ Power switch</text>
 <pinref part="IC1" gate="G$1" pin="PC4(TDO/PCINT20)"/>
 <wire x1="195.58" y1="38.1" x2="208.28" y2="38.1" width="0.1524" layer="91"/>
 <label x="198.12" y="38.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="OLED_DNC" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="9"/>
-<wire x1="45.72" y1="132.08" x2="27.94" y2="132.08" width="0.1524" layer="91"/>
-<label x="30.48" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -17680,7 +17671,7 @@ Power switch</text>
 <wire x1="119.38" y1="251.46" x2="119.38" y2="259.08" width="0.1524" layer="91"/>
 <junction x="119.38" y="259.08"/>
 <pinref part="SJ2" gate="1" pin="2"/>
-<wire x1="129.54" y1="251.46" x2="119.38" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="251.46" x2="119.38" y2="251.46" width="0.1524" layer="91"/>
 <junction x="119.38" y="251.46"/>
 </segment>
 </net>
@@ -17713,11 +17704,11 @@ Power switch</text>
 <net name="N$18" class="0">
 <segment>
 <pinref part="S5" gate="G$1" pin="MIC1_N"/>
-<wire x1="93.98" y1="254" x2="104.14" y2="254" width="0.1524" layer="91"/>
-<pinref part="SJ6" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="254" x2="99.06" y2="254" width="0.1524" layer="91"/>
+<pinref part="SJ6" gate="1" pin="2"/>
 <pinref part="SJ3" gate="1" pin="2"/>
-<wire x1="124.46" y1="254" x2="104.14" y2="254" width="0.1524" layer="91"/>
-<junction x="104.14" y="254"/>
+<wire x1="106.68" y1="254" x2="99.06" y2="254" width="0.1524" layer="91"/>
+<junction x="99.06" y="254"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -17740,14 +17731,20 @@ Power switch</text>
 <segment>
 <pinref part="SJ2" gate="1" pin="1"/>
 <pinref part="JP12" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="251.46" x2="139.7" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="251.46" x2="134.62" y2="251.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$28" class="0">
+<net name="AUDIO_GND" class="0">
 <segment>
+<pinref part="S5" gate="G$1" pin="GND@42"/>
+<wire x1="93.98" y1="248.92" x2="121.92" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="SJ3" gate="1" pin="1"/>
 <pinref part="JP12" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="254" x2="142.24" y2="254" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="254" x2="121.92" y2="254" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="254" x2="142.24" y2="254" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="248.92" x2="121.92" y2="254" width="0.1524" layer="91"/>
+<junction x="121.92" y="254"/>
+<label x="96.52" y="248.92" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
