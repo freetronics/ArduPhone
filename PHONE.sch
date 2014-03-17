@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -806,53 +806,6 @@ chip</description>
 <text x="-0.762" y="0.8255" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
-<package name="1206">
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
-<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<text x="-1.27" y="1.143" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.397" y="-1.524" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
-<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
-<package name="AXIAL-0.3">
-<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="21"/>
-<pad name="P$1" x="-3.81" y="0" drill="0.9"/>
-<pad name="P$2" x="3.81" y="0" drill="0.9"/>
-<text x="-2.54" y="1.27" size="0.4064" layer="25">&gt;Name</text>
-<text x="-2.032" y="-0.508" size="0.8128" layer="21">&gt;Value</text>
-</package>
-<package name="R2010">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-chip</description>
-<wire x1="-1.662" y1="1.245" x2="1.662" y2="1.245" width="0.1524" layer="51"/>
-<wire x1="-1.637" y1="-1.245" x2="1.687" y2="-1.245" width="0.1524" layer="51"/>
-<wire x1="-3.473" y1="1.483" x2="3.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="3.473" y1="1.483" x2="3.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="3.473" y1="-1.483" x2="-3.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-3.473" y1="-1.483" x2="-3.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="-1.027" y1="1.245" x2="1.027" y2="1.245" width="0.1524" layer="21"/>
-<wire x1="-1.002" y1="-1.245" x2="1.016" y2="-1.245" width="0.1524" layer="21"/>
-<smd name="1" x="-2.2" y="0" dx="1.8" dy="2.7" layer="1"/>
-<smd name="2" x="2.2" y="0" dx="1.8" dy="2.7" layer="1"/>
-<text x="-2.54" y="1.5875" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-2.032" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-2.4892" y1="-1.3208" x2="-1.6393" y2="1.3292" layer="51"/>
-<rectangle x1="1.651" y1="-1.3208" x2="2.5009" y2="1.3292" layer="51"/>
-</package>
 <package name="SOT23-3">
 <wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
 <wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
@@ -948,16 +901,6 @@ chip</description>
 <rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-<symbol name="RESISTOR">
-<wire x1="-2.54" y1="1.016" x2="2.54" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-1.016" x2="-2.54" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-1.016" x2="2.54" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-1.016" x2="2.54" y2="-1.016" width="0.1524" layer="94"/>
-<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 <symbol name="MOSFET-NCHANNEL">
 <wire x1="-3.6576" y1="2.413" x2="-3.6576" y2="-2.54" width="0.254" layer="94"/>
@@ -1274,78 +1217,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <connects>
 <connect gate="G$1" pin="1" pad="A"/>
 <connect gate="G$1" pin="2" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0805-LARGE" package="0805-LARGE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RESISTOR" prefix="R" uservalue="yes">
-<description>&lt;b&gt;Resistor&lt;/b&gt;
-Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (small) resistors.</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="1206" package="1206">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0603" package="0603@1">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH1" package="AXIAL-0.3">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="2010" package="R2010">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0402" package="C0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0805" package="0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15061,6 +14932,156 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <rectangle x1="-1.4732" y1="0.2032" x2="-1.3462" y2="0.3302" layer="51"/>
 <rectangle x1="-1.1176" y1="0.5842" x2="-0.9906" y2="0.7112" layer="51"/>
 </package>
+<package name="0603">
+<wire x1="-1.27" y1="0.508" x2="1.27" y2="0.508" width="0.0508" layer="39"/>
+<wire x1="1.27" y1="0.508" x2="1.27" y2="-0.508" width="0.0508" layer="39"/>
+<wire x1="1.27" y1="-0.508" x2="-1.27" y2="-0.508" width="0.0508" layer="39"/>
+<wire x1="-1.27" y1="-0.508" x2="-1.27" y2="0.508" width="0.0508" layer="39"/>
+<wire x1="-0.508" y1="0.3302" x2="0.508" y2="0.3302" width="0.1016" layer="51"/>
+<wire x1="-0.508" y1="-0.3302" x2="0.508" y2="-0.3302" width="0.1016" layer="51"/>
+<wire x1="-0.127" y1="0.254" x2="0.127" y2="0.254" width="0.254" layer="21"/>
+<wire x1="-0.127" y1="-0.254" x2="0.127" y2="-0.254" width="0.254" layer="21"/>
+<smd name="1" x="-0.762" y="0" dx="0.762" dy="0.762" layer="1"/>
+<smd name="2" x="0.762" y="0" dx="0.762" dy="0.762" layer="1"/>
+<text x="-0.889" y="0.508" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.016" y="-0.9652" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-0.762" y1="-0.381" x2="-0.381" y2="0.381" layer="51"/>
+<rectangle x1="0.381" y1="-0.381" x2="0.762" y2="0.381" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35" rot="R180"/>
+</package>
+<package name="CAP-PTH-SMALL">
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="0.8128"/>
+<pad name="2" x="2.54" y="0" drill="0.8128"/>
+<text x="0.508" y="1.27" size="0.4064" layer="25">&gt;Name</text>
+<text x="0.254" y="-1.524" size="0.4064" layer="27">&gt;Value</text>
+</package>
+<package name="CAP-PTH-SMALL2">
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="3.81" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-1.27" x2="-1.27" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="0.7"/>
+<pad name="2" x="2.54" y="0" drill="0.7"/>
+<text x="-1.27" y="1.905" size="0.6096" layer="25">&gt;Name</text>
+<text x="-1.27" y="-2.54" size="0.6096" layer="27">&gt;Value</text>
+<text x="-1.27" y="-3.81" size="0.6096" layer="21">&gt;Value</text>
+</package>
+<package name="C0402">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
+<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<text x="-0.889" y="0.6985" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.0795" y="-1.143" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="0805">
+<wire x1="-0.3" y1="0.6" x2="0.3" y2="0.6" width="0.1524" layer="21"/>
+<wire x1="-0.3" y1="-0.6" x2="0.3" y2="-0.6" width="0.1524" layer="21"/>
+<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<text x="-0.762" y="0.8255" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="CAP-PTH-LARGE">
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="-4.826" y="0" drill="0.7"/>
+<pad name="2" x="4.572" y="0" drill="0.7"/>
+<text x="-0.762" y="1.27" size="0.4064" layer="25">&gt;Name</text>
+<text x="-1.016" y="-1.524" size="0.4064" layer="27">&gt;Value</text>
+</package>
+<package name="GRM43D">
+<wire x1="2.25" y1="1.6" x2="1.1" y2="1.6" width="0.127" layer="51"/>
+<wire x1="1.1" y1="1.6" x2="-1.1" y2="1.6" width="0.127" layer="51"/>
+<wire x1="-1.1" y1="1.6" x2="-2.25" y2="1.6" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="1.6" x2="-2.25" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="-1.6" x2="-1.1" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="-1.1" y1="-1.6" x2="1.1" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="1.1" y1="-1.6" x2="2.25" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="2.25" y1="-1.6" x2="2.25" y2="1.6" width="0.127" layer="51"/>
+<wire x1="1.1" y1="1.6" x2="1.1" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="-1.1" y1="1.6" x2="-1.1" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="-2.3" y1="1.8" x2="-0.8" y2="1.8" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="1.8" x2="2.3" y2="1.8" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="-1.8" x2="-0.8" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-1.8" x2="2.3" y2="-1.8" width="0.127" layer="21"/>
+<smd name="A" x="1.8" y="0" dx="3.2" dy="1.65" layer="1" rot="R90"/>
+<smd name="C" x="-1.8" y="0" dx="3.2" dy="1.65" layer="1" rot="R90"/>
+<text x="-2" y="2" size="0.4064" layer="25">&gt;NAME</text>
+<text x="0" y="-2" size="0.4064" layer="27" rot="R180">&gt;VALUE</text>
+<rectangle x1="-2.2" y1="-1.6" x2="-1.1" y2="1.6" layer="51"/>
+<rectangle x1="1.1" y1="-1.6" x2="2.2" y2="1.6" layer="51"/>
+</package>
+<package name="0805-LARGE">
+<wire x1="-0.2032" y1="0.6" x2="0.2032" y2="0.6" width="0.1524" layer="21"/>
+<wire x1="-0.2032" y1="-0.6" x2="0.2032" y2="-0.6" width="0.1524" layer="21"/>
+<smd name="1" x="-1.016" y="0" dx="1.27" dy="1.27" layer="1"/>
+<smd name="2" x="1.016" y="0" dx="1.27" dy="1.27" layer="1"/>
+<text x="-0.762" y="0.8255" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
+<wire x1="1.5748" y1="-0.6" x2="-1.5748" y2="-0.6" width="0.3048" layer="51"/>
+<wire x1="1.5748" y1="0.6" x2="-1.5748" y2="0.6" width="0.3048" layer="51"/>
+<wire x1="1.5748" y1="-0.6" x2="1.5748" y2="0.6" width="0.3048" layer="51"/>
+<wire x1="-1.5748" y1="-0.6" x2="-1.5748" y2="0.6" width="0.3048" layer="51"/>
+</package>
+<package name="1206">
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="-1.27" y="1.143" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.397" y="-1.524" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="AXIAL-0.3">
+<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="21"/>
+<pad name="P$1" x="-3.81" y="0" drill="0.9"/>
+<pad name="P$2" x="3.81" y="0" drill="0.9"/>
+<text x="-2.54" y="1.27" size="0.4064" layer="25">&gt;Name</text>
+<text x="-2.032" y="-0.508" size="0.8128" layer="21">&gt;Value</text>
+</package>
+<package name="R2010">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-1.662" y1="1.245" x2="1.662" y2="1.245" width="0.1524" layer="51"/>
+<wire x1="-1.637" y1="-1.245" x2="1.687" y2="-1.245" width="0.1524" layer="51"/>
+<wire x1="-3.473" y1="1.483" x2="3.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="3.473" y1="1.483" x2="3.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="3.473" y1="-1.483" x2="-3.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-3.473" y1="-1.483" x2="-3.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="-1.027" y1="1.245" x2="1.027" y2="1.245" width="0.1524" layer="21"/>
+<wire x1="-1.002" y1="-1.245" x2="1.016" y2="-1.245" width="0.1524" layer="21"/>
+<smd name="1" x="-2.2" y="0" dx="1.8" dy="2.7" layer="1"/>
+<smd name="2" x="2.2" y="0" dx="1.8" dy="2.7" layer="1"/>
+<text x="-2.54" y="1.5875" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.032" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.4892" y1="-1.3208" x2="-1.6393" y2="1.3292" layer="51"/>
+<rectangle x1="1.651" y1="-1.3208" x2="2.5009" y2="1.3292" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SWITCH-MOMENTARY">
@@ -15139,6 +15160,26 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="CAP">
+<wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="0.508" width="0.1524" layer="94"/>
+<text x="1.524" y="2.921" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.524" y="-2.159" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-2.032" y1="0.508" x2="2.032" y2="1.016" layer="94"/>
+<rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="RESISTOR">
+<wire x1="-2.54" y1="1.016" x2="2.54" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-1.016" x2="-2.54" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.016" x2="2.54" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-1.016" x2="2.54" y2="-1.016" width="0.1524" layer="94"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -15414,6 +15455,159 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </device>
 </devices>
 </deviceset>
+<deviceset name="CAP" prefix="C" uservalue="yes">
+<description>&lt;b&gt;Capacitor&lt;/b&gt;
+Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0603" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PTH" package="CAP-PTH-SMALL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PTH2" package="CAP-PTH-SMALL2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0402" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0805" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PTH3" package="CAP-PTH-LARGE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD" package="GRM43D">
+<connects>
+<connect gate="G$1" pin="1" pad="A"/>
+<connect gate="G$1" pin="2" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0805-LARGE" package="0805-LARGE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RESISTOR" prefix="R" uservalue="yes">
+<description>&lt;b&gt;Resistor&lt;/b&gt;
+Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (small) resistors.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1206" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0603" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PTH1" package="AXIAL-0.3">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2010" package="R2010">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0402" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0805" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0805-LARGE" package="0805-LARGE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="freetronics-luke">
@@ -15577,39 +15771,39 @@ http://cds.linear.com/docs/Datasheet/405442xf.pdf</description>
 <part name="J3" library="freetronics-original" deviceset="M10" device="0.1" value="Digital_8_13"/>
 <part name="J4" library="freetronics" deviceset="M08" device="" value="Digital_0_7"/>
 <part name="X1" library="freetronics-master-v1" deviceset="CRYSTAL" device="HC49UV" value="8MHz"/>
-<part name="C2" library="freetronics" deviceset="CAP" device="0603" value="22pF 0603"/>
-<part name="C3" library="freetronics" deviceset="CAP" device="0603" value="22pF 0603"/>
+<part name="C2" library="freetronics-master-v1.1" deviceset="CAP" device="0603" value="22pF 0603"/>
+<part name="C3" library="freetronics-master-v1.1" deviceset="CAP" device="0603" value="22pF 0603"/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
-<part name="C4" library="freetronics" deviceset="CAP" device="0603" value="100nF 0603"/>
+<part name="C4" library="freetronics-master-v1.1" deviceset="CAP" device="0603" value="100nF 0603"/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
-<part name="R1" library="freetronics" deviceset="RESISTOR" device="0603" value="10K 0603"/>
+<part name="R1" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="10K 0603"/>
 <part name="F1" library="rcl" deviceset="L-EU" device="L1812" value="500mA PTC 1812"/>
-<part name="R2" library="freetronics" deviceset="RESISTOR" device="0603" value="1K 0603"/>
-<part name="R3" library="freetronics" deviceset="RESISTOR" device="0603" value="1K 0603"/>
+<part name="R2" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="1K 0603"/>
+<part name="R3" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="1K 0603"/>
 <part name="LED1" library="freetronics-master-v1" deviceset="LED" device="0603" value="RX/GRN"/>
 <part name="LED2" library="freetronics-master-v1" deviceset="LED" device="0603" value="TX/YEL"/>
 <part name="U$2" library="SparkFun" deviceset="5V" device=""/>
-<part name="R4" library="freetronics" deviceset="RESISTOR" device="0603" value="1K 0603"/>
-<part name="R5" library="freetronics" deviceset="RESISTOR" device="0603" value="1K 0603"/>
+<part name="R4" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="1K 0603"/>
+<part name="R5" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="1K 0603"/>
 <part name="Q2" library="freetronics" deviceset="MOSFET-NCHANNEL" device="SMD" value="2N7002"/>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
 <part name="LED3" library="freetronics-master-v1" deviceset="LED" device="0603" value="D13/RED"/>
-<part name="R7" library="freetronics" deviceset="RESISTOR" device="0603" value="1K 0603"/>
-<part name="C8" library="freetronics" deviceset="CAP" device="0603" value="100nF 0603"/>
+<part name="R7" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="1K 0603"/>
+<part name="C8" library="freetronics-master-v1.1" deviceset="CAP" device="0603" value="100nF 0603"/>
 <part name="SJ1" library="freetronics-jon" deviceset="SJC" device="N" value="RESET-EN"/>
-<part name="C9" library="freetronics" deviceset="CAP" device="0603" value="100nF 0603"/>
+<part name="C9" library="freetronics-master-v1.1" deviceset="CAP" device="0603" value="100nF 0603"/>
 <part name="GND11" library="SparkFun" deviceset="GND" device=""/>
 <part name="P2" library="pinhead" deviceset="PINHD-2X3" device="" value="ICSP:MAIN"/>
 <part name="GND22" library="SparkFun" deviceset="GND" device=""/>
-<part name="R10" library="freetronics" deviceset="RESISTOR" device="0603" value="820R 0603"/>
+<part name="R10" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="820R 0603"/>
 <part name="LED4" library="freetronics-master-v1" deviceset="LED" device="0603" value="3V3/BLUE"/>
 <part name="GND23" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$5" library="freetronics" deviceset="FIDUCIAL" device="1X2.5"/>
 <part name="U$14" library="freetronics" deviceset="FIDUCIAL" device="1X2.5"/>
-<part name="C11" library="freetronics" deviceset="CAP" device="0603" value="100nF 0603"/>
-<part name="R11" library="freetronics" deviceset="RESISTOR" device="0603" value="27R 0603"/>
-<part name="R12" library="freetronics" deviceset="RESISTOR" device="0603" value="27R 0603"/>
-<part name="R6" library="freetronics" deviceset="RESISTOR" device="0603" value="1M 0603"/>
+<part name="C11" library="freetronics-master-v1.1" deviceset="CAP" device="0603" value="100nF 0603"/>
+<part name="R11" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="27R 0603"/>
+<part name="R12" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="27R 0603"/>
+<part name="R6" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="1M 0603"/>
 <part name="C12" library="freetronics-jon" deviceset="C-EU" device="C0603" value="47pF 0603"/>
 <part name="C13" library="freetronics-jon" deviceset="C-EU" device="C0603" value="47pF 0603"/>
 <part name="L1" library="freetronics-master-v1" deviceset="INDUCTOR" device="0805-LARGE" value="0805 INDUCTOR"/>
@@ -15647,18 +15841,18 @@ http://cds.linear.com/docs/Datasheet/405442xf.pdf</description>
 <part name="GND15" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+8" library="freetronics-original" deviceset="VCC" device=""/>
 <part name="P+7" library="freetronics-master-v1.1" deviceset="3V3" device=""/>
-<part name="R8" library="freetronics" deviceset="RESISTOR" device="0603" value="1K 0603"/>
-<part name="R9" library="freetronics" deviceset="RESISTOR" device="0603" value="1K 0603"/>
+<part name="R8" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="1K 0603"/>
+<part name="R9" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="1K 0603"/>
 <part name="IC3" library="freetronics-luke" deviceset="LTC4054" device=""/>
-<part name="R13" library="freetronics" deviceset="RESISTOR" device="0603" value="1K 0603"/>
-<part name="R14" library="freetronics" deviceset="RESISTOR" device="0603" value="1K 0603"/>
-<part name="C1" library="freetronics" deviceset="CAP" device="0603" value="1uF 0603"/>
-<part name="R15" library="freetronics" deviceset="RESISTOR" device="0603" value="10K 0603"/>
+<part name="R13" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="1K 0603"/>
+<part name="R14" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="1K 0603"/>
+<part name="C1" library="freetronics-master-v1.1" deviceset="CAP" device="0603" value="1uF 0603"/>
+<part name="R15" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="10K 0603"/>
 <part name="LED5" library="freetronics-master-v1" deviceset="LED" device="0603" value="CHRG/ORANGE"/>
 <part name="LED6" library="freetronics-master-v1" deviceset="LED" device="0603" value="STBY/GREEN"/>
 <part name="Q1" library="freetronics-luke" deviceset="2N7002" device="" value="2N7002 SOT-23"/>
-<part name="R16" library="freetronics" deviceset="RESISTOR" device="0603" value="3K3 0603"/>
-<part name="R17" library="freetronics" deviceset="RESISTOR" device="0603" value="10K 0603"/>
+<part name="R16" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="3K3 0603"/>
+<part name="R17" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="10K 0603"/>
 <part name="SJ4" library="freetronics-jon" deviceset="SJC" device="N"/>
 <part name="SJ5" library="freetronics-jon" deviceset="SJC" device="N"/>
 <part name="S2" library="freetronics-jon" deviceset="2P-JST-TH-RA" device="PTH" value="BAT"/>
@@ -15667,12 +15861,12 @@ http://cds.linear.com/docs/Datasheet/405442xf.pdf</description>
 <part name="C5" library="rcl" deviceset="CPOL-EU" device="D" value="100uF 16V"/>
 <part name="GND16" library="SparkFun" deviceset="GND" device=""/>
 <part name="IC4" library="freetronics-jon" deviceset="TEXAS_TPS770*" device="" technology="33" value="LP2985-33DBVR"/>
-<part name="C7" library="freetronics" deviceset="CAP" device="0603" value="1uF 0603"/>
+<part name="C7" library="freetronics-master-v1.1" deviceset="CAP" device="0603" value="1uF 0603"/>
 <part name="P+10" library="freetronics-original" deviceset="VCC" device=""/>
 <part name="P+11" library="freetronics-master-v1.1" deviceset="3V3" device=""/>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
 <part name="S4" library="freetronics-jon" deviceset="AUDIO-JACK-4POLE" device="" value="4UCON-18899"/>
-<part name="R18" library="freetronics" deviceset="RESISTOR" device="0603" value="10K 0603"/>
+<part name="R18" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="10K 0603"/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+12" library="freetronics-original" deviceset="VCC" device=""/>
 <part name="TP1" library="freetronics-original" deviceset="TEST-POINT" device="2" value="TEST-POINT"/>
@@ -15689,7 +15883,7 @@ http://cds.linear.com/docs/Datasheet/405442xf.pdf</description>
 <part name="JP10" library="freetronics-master-v1.1" deviceset="M01" device="PTH" value="COL3"/>
 <part name="LED7" library="freetronics-master-v1" deviceset="LED" device="0603" value="5V/JADEGREEN"/>
 <part name="GND14" library="SparkFun" deviceset="GND" device=""/>
-<part name="R19" library="freetronics" deviceset="RESISTOR" device="0603" value="2K7 0603"/>
+<part name="R19" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="2K7 0603"/>
 <part name="U$3" library="SparkFun" deviceset="5V" device=""/>
 <part name="SJ6" library="freetronics-master-v1.1" deviceset="SJ" device="" value="LINK"/>
 <part name="U$6" library="freetronics" deviceset="FIDUCIAL" device="1X2.5"/>
@@ -17756,17 +17950,6 @@ Power switch</text>
 <approved hash="104,1,175.26,147.32,IC2,VCC,5V,,,"/>
 <approved hash="104,1,175.26,149.86,IC2,VCCIO,N$2,,,"/>
 <approved hash="104,1,175.26,144.78,IC2,3V3OUT,N$2,,,"/>
-<approved hash="115,1,19.6427,9.96527,J5,,,,,"/>
-<approved hash="115,1,111.76,256.113,SJ3,,,,,"/>
-<approved hash="117,1,26.67,111.76,D12_MISO,,,,,"/>
-<approved hash="117,1,201.93,93.98,A0_ROW6,,,,,"/>
-<approved hash="117,1,201.93,91.44,A1_ROW5,,,,,"/>
-<approved hash="117,1,201.93,88.9,A2_ROW4,,,,,"/>
-<approved hash="117,1,201.93,86.36,A3_ROW3,,,,,"/>
-<approved hash="117,1,125.73,86.36,RESET,,,,,"/>
-<approved hash="117,1,26.67,106.68,RESET,,,,,"/>
-<approved hash="117,1,52.07,109.22,D11_MOSI,,,,,"/>
-<approved hash="117,1,26.67,109.22,D13_SCK,,,,,"/>
 </errors>
 </schematic>
 </drawing>
