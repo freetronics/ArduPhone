@@ -1,8 +1,6 @@
 Freetronics ArduPhone
 =====================
-Copyright 2013 Freetronics Pty Ltd  
-Freetronics site:  www.freetronics.com  
-Freetronics email: info@freetronics.com  
+Copyright 2013 Freetronics Pty Ltd www.freetronics.com  
 
 The ArduPhone is an Arduino compatible board with onboard
 GSM module, OLED display, matrix keypad, and battery
@@ -16,7 +14,7 @@ Features:
 
 More info at:
 
-  http://www.freetronics.com/phone
+  http://www.freetronics.com.au/phone
 
 
 INSTALLATION
